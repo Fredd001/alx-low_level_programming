@@ -13,6 +13,7 @@ int main(void)
 	for (alph = 'a'; alph <= 'z'; alph++)
 	{
 		putchar(alph);
+		putchar('\t');
 	}
 	return (0);
 }
